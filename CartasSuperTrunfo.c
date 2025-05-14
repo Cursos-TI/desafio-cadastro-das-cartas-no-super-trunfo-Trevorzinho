@@ -57,6 +57,8 @@ int main() {
     printf("Digite a quantidade de lugares túristicos da carta 2: \n");
     scanf("%d", &turistico2);
 
+    densidade1 = populacao1 / area1;
+    pibcap1 = pib1 / populacao1;
     densidade2 = populacao2 / area2;
     pibcap2 = pib2 / populacao2;
 
